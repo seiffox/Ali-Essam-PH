@@ -595,6 +595,11 @@ blockquote span{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
     }
+    .responsive {
+        width: 20%;
+        height: auto;
+        
+    }
 }
 
 @media screen and (min-width: 800px){
@@ -672,6 +677,11 @@ blockquote span{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 40px;
+    }
+    .responsive {
+        width: 200%;
+        height: auto;
+        
     }
 }
 
