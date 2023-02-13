@@ -242,6 +242,7 @@ blockquote span{
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .card .icon img {
@@ -250,6 +251,7 @@ blockquote span{
 
 .info {
     text-align: center;
+    width: 100%;
 }
 
 .info h3{
@@ -257,6 +259,9 @@ blockquote span{
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+}
+.info p{
+    width: 100%;
 }
 
 /******************* Footer Styling *****************/
@@ -539,7 +544,9 @@ blockquote span{
     .maincard{
         padding: 50px 100px;
     }
-
+    .info p{
+        font-size: x-small;
+    }
 }
 
 
