@@ -741,14 +741,27 @@ blockquote span{
 
 /*************** extra small sized screen ******************/
 
+@media screen and (min-width: 501px){
+    /* section five */
+    .contact-middle{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
+    .responsive {
+        width: 15%;
+        height: auto;
+        
+    }
+}
 @media screen and (max-width: 500px){
     /* overall styling */
     .header{
         padding-bottom: 30px;
     }
-    .social-icons{
+    /* .social-icons{
         display: none;
-    }
+    } */
     .about-content h3{
         width: 100%;
     }
@@ -791,5 +804,4 @@ blockquote span{
         height: auto;
         margin-top: 0px;
     }
-
 }
